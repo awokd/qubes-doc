@@ -139,8 +139,9 @@ from the update command), you may need to manually rebuild the EFI or grub confi
 your system uses.
 
 EFI
+Replace the example version numbers with the one you are upgrading to.
 ~~~
-sudo dracut -f /boot/efi/EFI/qubes/initramfs-$(uname -r).img $(uname -r)
+sudo dracut -f /boot/efi/EFI/qubes/initramfs-4.14.35-1.pvops.qubes.x86_64.img 4.14.35-1.pvops.qubes.x86_64
 ~~~
 
 Grub2
